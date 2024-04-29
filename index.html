@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Foods of Japan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            background: url(japan.png);
+        }
+        header {
+            background-color: burlywood;
+            background: url(peace.png);
+             background-repeat: no-repeat;
+             color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+        nav {
+            background-color: wheat;
+            background: url(peace.png);
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: purple;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .food-item {
+            background-color: peachpuff;
+            background: url(image.png);
+        
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .food-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .food-item h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .food-item p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .food-item img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .food-item img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Great Foods of Japan</h1>
+</header>
+
+<nav>
+    <a href="#sushi">Sushi</a>
+    <a href="#ramen">Ramen</a>
+    <a href="#tempura">Tempura</a>
+    <a href="#matcha">Matcha</a>
+    <a href="#Yakitori">Yakitori</a>
+    <a href="#Tonkatsu">Tonkatsu</a>
+    <a href="#Okonomiyaki">Okonomiyaki</a>
+    <a href="#Sashimi">Sashimi</a>
+    <a href="#Miso Soup">Miso Soup</a>
+    <a href="#Unagi">Unagi</a>
+</nav>
+
+<div class="container">
+
+    <div id="sushi" class="food-item">
+        <h2>Sushi</h2>
+        <p>Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the main ingredient is always rice and can include raw fish, cooked fish, and seafood.</p>
+        <img src="sushi.png" alt="Sushi">
+    </div>
+
+    <div id="ramen" class="food-item">
+        <h2>Ramen</h2>
+        <p>Ramen is a Japanese noodle soup dish consisting of Chinese wheat noodles served in a meat or (occasionally) fish-based broth, often flavored with soy sauce or miso, and uses toppings such as sliced pork (chashu), nori (dried seaweed), menma, and green onions.</p>
+        <img src="ramen.png" alt="Ramen">
+    </div>
+
+    <div id="tempura" class="food-item">
+        <h2>Tempura</h2>
+        <p>Tempura is a Japanese dish usually consisting of seafood or vegetables that have been battered and deep-fried. Tempura batter is traditionally made with cold water, flour, and egg yolk.</p>
+        <img src="tempura.jpg" alt="Tempura">
+    </div>
+
+    <div id="matcha" class="food-item">
+        <h2>Matcha</h2>
+        <p>Matcha is finely ground powder of specially grown and processed green tea leaves. It is used in traditional Japanese tea ceremonies and has become a popular ingredient in many food items, including desserts like matcha ice cream, matcha cakes, and matcha-flavored chocolates.</p>
+        <img src="matcha.jpg" alt="Matcha">
+    </div>
+
+    <div id="Yakitori" class="food-item">
+        <h2>Yakitori</h2>
+        <p>Grilled skewered chicken pieces seasoned with salt or sauce, often served as a popular izakaya (Japanese pub) dish.</p>
+        <img src="yakitori.png" alt="yakitori">
+    </div>
+
+    <div id="Tonkatsu" class="food-item">
+        <h2>Tonkatsu</h2>
+        <p>Breaded and deep-fried pork cutlet, usually served with shredded cabbage, rice, and a tangy sauce called tonkatsu sauce.</p>
+        <img src="tonkatsu.png" alt="Tonkatsu">
+    </div>
+
+    <div id="Okonomiyaki" class="food-item">
+        <h2>Okonomiyaki</h2>
+        <p>A savory pancake made with flour, eggs, shredded cabbage, and a variety of toppings such as meat, seafood, and vegetables, then drizzled with okonomiyaki sauce and mayonnaise.</p>
+        <img src="okonomiyaki.png" alt="Okonomiyaki">
+    </div>
+
+    <div id="Sashimi" class="food-item">
+        <h2>Sashimi</h2>
+        <p>Thinly sliced raw fish or seafood served as a delicacy, often accompanied by soy sauce, wasabi, and pickled ginger.</p>
+        <img src="sashimi.png" alt="Sashimi">
+    </div>
+
+    <div id="Miso Soup" class="food-item">
+        <h2>Miso Soup</h2>
+        <p>A traditional Japanese soup made with dashi (stock) and fermented soybean paste (miso), typically containing ingredients like tofu, seaweed, and green onions.</p>
+        <img src="misosoup.png" alt="Miso Soup">
+    </div>
+
+    <div id="Unagi" class="food-item">
+        <h2>Unagi</h2>
+        <p>Grilled freshwater eel glazed with a sweet soy-based sauce, served over rice as a popular dish known as unagi donburi or unadon.</p>
+        <img src="unagi.png" alt="Unagi">
+    </div>
+    <footer>
+        <p><bold>&copy; 2024 Shiii's Website. All rights reserved.</bold></p>
+    </footer>
+
+</div>
+
+</body>
+</html>
